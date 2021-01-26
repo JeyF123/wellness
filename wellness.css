@@ -260,19 +260,23 @@ div > #wellness-bild ~ p {
     margin-bottom: 2rem;
     text-align: center;
     padding: 0;
+    margin-bottom: 8rem;
 
 }
 
 
 footer{
     margin-top: 8rem;
-    background-color: rgb(240, 240, 178);;
+    background-color: rgb(240, 240, 178);
+    position: sticky;
+    bottom: 0;
+   
 }
 footer a{
     
     color: rgb(1, 54, 1);
     text-decoration: none;
     margin: 0 1rem;
-    font-size: .8rem;
-    
+    font-size: 1.2rem;
+   
 }
