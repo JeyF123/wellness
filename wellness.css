@@ -1,0 +1,264 @@
+/* Farben
+
+background-color: rgb(1, 54, 1); 
+background-color: rgb(245, 237, 237); */
+
+
+
+body{
+    margin: 0;
+    position: relative;
+    font-family: sans-serif;
+} 
+
+
+header{
+    width: 90%;
+    height: 100px;
+    background-color: rgb(1, 54, 1);
+    position: relative;
+    margin: 0 auto;
+}
+.col-2{
+    width: 33.333%;
+    height: auto;
+    display: block;
+    float: left;
+    position: relative;
+    /* border: 2px solid red; */
+    box-sizing: border-box;    
+}
+.col-4-center{
+    width: 66.64%;
+    height: auto;
+    display: block;
+    /* float: left; */
+    position: relative;
+    /* border: 2px solid red; */
+    box-sizing: border-box; 
+    margin: 0 auto;
+}
+
+.col-3-center > h2{
+    width: 50.00%;
+    height: auto;
+    display: block;
+    /* float: left; */
+    position: relative;
+    /* border: 2px solid red; */
+    box-sizing: border-box; 
+    margin: 0 auto;
+}
+
+
+
+.logo{
+    /* margin: 0; */
+    position: relative;
+    text-align: center;       
+}
+
+#pic{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    padding: 10px;
+
+    position: relative;
+    right: 25%;
+    transition: .5s linear;
+    border: 2px solid rgb(173, 218, 173);
+    border-radius: 50%;
+}
+
+/* Die Div #pic dreht sich, das Bild .logo würde kreisen */
+
+#pic:hover{
+    transform: rotate(360deg) scale(1.25, 1.25);
+}
+
+#main-headline{
+    color: rgb(240, 240, 178);
+    font-family: sans-serif; 
+    position: relative;  
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    padding: 15px;
+    transition: .5s linear;
+    display: inline-block;
+}
+#main-headline:hover{
+    color: rgb(32, 39, 32);
+    font-weight: bold;
+    font-size: 2.1rem;
+    border: 3px solid red;
+    border-radius: 35%;
+    background-color: lightblue;
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+li{
+    display:inline-block;
+    position: relative;
+    color: gold;
+    margin: 0;
+    top: 41px; 
+     
+}
+li>a{
+     text-decoration: none; 
+     color: gold;
+     
+     padding: 0 .75rem;
+}
+
+ul>li{
+    border-left: 2px solid red;
+    transition: all .1s linear;
+     
+}
+
+ul>li:hover{
+    transform: scale(1.1, 1.1);
+}
+
+
+ul>li>a:hover{
+    transition: all .1s linear;
+   
+}
+ul>li>a:hover{
+    
+    color: rgb(248, 227, 123);
+    text-shadow: .5px .5px .5px rgb(247, 244, 227);
+    font-weight: bold;
+    
+}
+
+
+
+
+
+/* li>a:nth-child(odd){
+    border-right: 1px solid red;
+} */
+
+
+#wellness-bild{
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+display: block; 
+    
+}
+
+.hauptseite-intro{
+    margin-top: 2rem;
+    position: relative;
+    height: auto;
+    width: 100%;  
+    margin-bottom: 4rem;
+    
+}
+
+.headline1{ 
+    margin: 0;
+    text-align: center; 
+    padding: 0;
+
+}
+
+.headline1 > h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: rgb(1, 54, 1);
+    margin-bottom: 2rem;
+    
+    padding: 0;
+}
+
+.headline2{ 
+    margin-top: 4rem;
+    text-align: left; 
+    padding: 0;
+    
+
+}
+
+.headline2 > h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: rgb(1, 54, 1);
+    margin-bottom: 2rem;
+    padding: 0;
+
+}
+
+
+
+.container{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.hauptseite-intro{
+    display: inline-block;
+} 
+
+div > #wellness-bild ~ p {
+    text-align: center;
+    color: blue;
+    font-size: 2rem;
+}
+
+.hauptseite-intro .col-2 > p > span{
+    color: rgb(1, 54, 1);
+    margin-top: 119.085px;
+    display: inline-block;
+    
+}
+
+.hauptseite-intro #bild1{
+    margin: 0;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.headline2 > h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: rgb(1, 54, 1);
+    margin-bottom: 2rem;
+    
+    padding: 0;
+}
+
+.hauptseite-beschreibung  h2{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: rgb(1, 54, 1);
+    margin-bottom: 2rem;
+    text-align: center;
+    padding: 0;
+
+}
+
+.hauptseite-beschreibung{
+
+    color: rgb(1, 54, 1);
+    margin-bottom: 2rem;
+    text-align: center;
+    padding: 0;
+
+}
