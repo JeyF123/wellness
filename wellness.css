@@ -28,6 +28,16 @@ header{
     /* border: 2px solid red; */
     box-sizing: border-box;    
 }
+
+.col-1{
+    width: 16.66%;
+    height: auto;
+    display: block;
+    float: left;
+    position: relative;
+    /* border: 2px solid red; */
+    box-sizing: border-box;    
+}
 .col-4-center{
     width: 66.64%;
     height: auto;
@@ -48,6 +58,16 @@ header{
     /* border: 2px solid red; */
     box-sizing: border-box; 
     margin: 0 auto;
+}
+
+.col-6{
+    width: 100%;
+    height: auto;
+    display: block;
+    float: left;
+    position: relative;
+    /* border: 2px solid red; */
+    box-sizing: border-box;    
 }
 
 
@@ -280,3 +300,66 @@ footer a{
     font-size: 1.2rem;
    
 }
+
+#impressum{
+    width: 500px;
+    height: auto;
+    color: rgb(1, 54, 1);
+    position: relative;
+    left: 5rem;
+
+
+}
+
+.kontakt-headline{
+    
+    color: rgb(1, 54, 1);
+    font-size: 2rem;
+    position: relative;
+    left: 5rem;
+
+}
+
+#kontaktformular{
+    position: relative;
+    left: 5rem;
+    /* top: 2rem; */
+    display: block;
+    color: blue;
+    width: 400px;
+   
+}
+
+#kontaktformular legend{
+    margin: .5rem 0;
+    color:  rgb(248, 227, 123);
+    background-color:rgb(1, 54, 1);
+    padding: .25rem;
+    border: 1px solid rgb(1, 54, 1);
+    border-radius: 15%;
+}
+
+#kontaktformular input{
+    margin:.5rem 0;
+    width: 200px;
+    display: inline-block;
+}
+#kontaktformular label{
+    margin:.5rem 0;
+    width: 100px;
+    display: inline-block;
+    color: rgb(1, 54, 1);
+}
+
+#kontaktformular fieldset{
+    margin-bottom: 1rem;
+}
+#kontakt-button{
+    display: block;
+    width: 100px;
+    height: 20px;
+    background-color:rgb(1, 54, 1);
+    color: rgb(240, 240, 178);
+}
+
+
