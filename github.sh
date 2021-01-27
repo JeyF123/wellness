@@ -1,8 +1,6 @@
  #!/bin/bash
 git init
 sleep 2
-git commit -m "new commit"
-sleep 2
 git add .
 sleep 2
 git branch -M main
