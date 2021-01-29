@@ -60,6 +60,17 @@ header{
     margin: 0 auto;
 }
 
+.col-3{
+    width: 50.00%;
+    height: auto;
+    display: block;
+    position: relative;
+    float: left;
+    /* border: 1px solid red; */
+    box-sizing: border-box; 
+   
+}
+
 .col-6{
     width: 100%;
     height: auto;
@@ -227,6 +238,11 @@ display: block;
     display: block;
     margin: 0 auto;
 }
+.row{
+    width: 100%;
+    display: inline-block;
+
+}
 
 .hauptseite-intro{
     display: inline-block;
@@ -311,12 +327,14 @@ footer a{
 
 }
 
+/* ===Kontakt-Formular=== */
+
 .kontakt-headline{
     
     color: rgb(1, 54, 1);
     font-size: 2rem;
     position: relative;
-    left: 5rem;
+    left: 20rem;
 
 }
 
@@ -324,9 +342,11 @@ footer a{
     position: relative;
     left: 5rem;
     /* top: 2rem; */
-    display: block;
+    display: inline-block;
     color: blue;
     width: 400px;
+    margin: 0;
+    left: 14rem;
    
 }
 
@@ -361,5 +381,15 @@ footer a{
     background-color:rgb(1, 54, 1);
     color: rgb(240, 240, 178);
 }
+#note{
+    position: relative;
+    left: 2rem;
+    top: 3.5rem;
+    width: 500px;
+    height: auto;
+    opacity: .75;
+    
+}
+
 
 
