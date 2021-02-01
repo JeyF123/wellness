@@ -12,3 +12,6 @@ sleep 2
 git commit --allow-empty -m "Trigger rebuild"
 sleep 10
 git push
+sleep 20
+chromium https://jeyf123.github.io/wellness/
+

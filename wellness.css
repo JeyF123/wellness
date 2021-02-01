@@ -2,8 +2,12 @@
 
 background-color: rgb(1, 54, 1); 
 background-color: rgb(245, 237, 237); */
+/* background-color:rgb(15, 15, 70);
+color: rgb(240, 240, 178); */
 
-
+@font-face { font-family: 'handwritten';
+    src: url('dancing.ttf') format('truetype'); 
+        }
 
 body{
     margin: 0;
@@ -37,6 +41,7 @@ header{
     position: relative;
     /* border: 2px solid red; */
     box-sizing: border-box;    
+    margin: 0;
 }
 .col-4-center{
     width: 66.64%;
@@ -108,6 +113,15 @@ header{
     transform: rotate(360deg) scale(1.25, 1.25);
 }
 
+#hauptseite-markierung, #kontakt-markierung, #leistungen-markierung{
+    background-color: rgb(15, 15, 70);
+    
+    
+}
+
+
+
+
 #main-headline{
     color: rgb(240, 240, 178);
     font-family: sans-serif; 
@@ -156,7 +170,7 @@ ul>li{
 }
 
 ul>li:hover{
-    transform: scale(1.1, 1.1);
+    transform: scale(1.05, 1.05);
 }
 
 
@@ -167,8 +181,8 @@ ul>li>a:hover{
 ul>li>a:hover{
     
     color: rgb(248, 227, 123);
-    text-shadow: .5px .5px .5px rgb(247, 244, 227);
-    font-weight: bold;
+    text-shadow: .25px .25px .25px rgb(247, 244, 227);
+    font-weight: 50;
     
 }
 
@@ -302,12 +316,12 @@ div > #wellness-bild ~ p {
 
 
 footer{
+    position: fixed;
     margin-top: 8rem;
     background-color: rgb(240, 240, 178);
-    position: sticky;
     bottom: 0;
-   
 }
+
 footer a{
     
     color: rgb(1, 54, 1);
@@ -390,6 +404,163 @@ footer a{
     opacity: .75;
     
 }
+
+/* Leistungen */
+
+
+#kitchen{
+width: 400px;
+    height: 12rem;
+margin: 0;}
+
+    #zimmer{
+        width: 400px;
+            height: 12rem;
+        margin: 0;}
+
+
+        #sauna{
+            width: 400px;
+                height: 12rem;
+            margin: 0;}
+
+
+#div-schief-links1{
+    width: 400px;
+    height: auto;
+    position: relative;
+    margin: 0;
+    top: 9rem;
+    left: 19rem;
+    border-bottom: 10px groove rgb(240, 240, 178);
+    
+}
+#div-schief-rechts1{
+    width: 420px;
+    height: 200px;
+    margin: 0;
+    position: relative;
+    padding: 1rem;
+    text-align: center;
+    top:9.25rem;
+    left: 24rem;
+    border-bottom: 10px groove rgb(240, 240, 178);
+    background-color: rgb(248, 227, 123);
+    color:  rgb(1, 54, 1);
+}
+
+#div-schief-links2{
+    width: 400px;
+    height: auto;
+    margin: 0;
+    position: relative;
+    top: 17rem;
+    left: 19rem;
+    border-bottom: 10px groove rgb(240, 240, 178);
+    
+}
+#div-schief-rechts2{
+    width: 400px;
+    height: 200px;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    top:17.25rem;
+    left: 24rem;
+    border-bottom: 10px groove rgb(240, 240, 178);
+    background-color: rgb(248, 227, 123);
+    color:  rgb(1, 54, 1);
+    
+}
+.freies-div1{
+    width: 25rem;
+    height: 5rem;
+    margin: 0;
+    position: relative;
+    top: 4rem;
+    left: 35rem;
+    background-color: rgb(1, 54, 1);
+    border-bottom: 10px groove rgb(240, 240, 178);
+}
+
+.freies-div1 > h1{
+    font-family:handwritten;
+    color:rgb(248, 227, 123);
+    font-size: 2.25rem;
+    text-align: center;
+    position: relative;
+    top: 1rem;  
+    margin: 0;
+}
+
+
+.freies-div2{
+    width: 25rem;
+    height: 5rem;
+    position: relative;
+    top: 12rem;
+    left: 35rem;
+    background-color: rgb(1, 54, 1);
+    border-bottom: 10px groove rgb(240, 240, 178);
+}
+
+.freies-div2 > h1{
+    font-family:handwritten;
+    color:rgb(248, 227, 123);
+    font-size: 2.25rem;
+    text-align: center;
+    position: relative;
+    top: 1rem;  
+}
+
+#div-schief-links3{
+    width: 400px;
+    height: auto;
+    position: relative;
+    margin: 0;
+    top: 25rem;
+    left: 19rem;
+    border-bottom: 10px groove rgb(240, 240, 178);
+    
+}
+#div-schief-rechts3{
+    width: 420px;
+    height: 200px;
+    margin: 0;
+    position: relative;
+    padding: 1rem;
+    text-align: center;
+    top: 25rem;
+    left: 24rem;
+    border-bottom: 10px groove rgb(240, 240, 178);
+    background-color: rgb(248, 227, 123);
+    color:  rgb(1, 54, 1);
+}
+
+.freies-div3{
+    width: 25rem;
+    height: 5rem;
+    position: relative;
+    top: 20rem;
+    left: 35rem;
+    background-color: rgb(1, 54, 1);
+    border-bottom: 10px groove rgb(240, 240, 178);
+}
+
+
+.freies-div3 > h1{
+    font-family:handwritten;
+    color:rgb(248, 227, 123);
+    font-size: 2.25rem;
+    text-align: center;
+    position: relative;
+    top: 1rem;  
+}
+
+
+
+
 
 
 
