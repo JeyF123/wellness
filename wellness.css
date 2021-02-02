@@ -409,7 +409,15 @@ footer a{
 }
 
 /* Leistungen */
+#div-schief-rechts1{
+    transition-property: all;
+}
 
+#div-schief-rechts1:hover{
+    transform: scale(1.25);
+    transition-delay: .1s;
+    transition-duration: .25s;
+}
 
 #kitchen{
 width: 400px;
