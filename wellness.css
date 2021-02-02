@@ -91,20 +91,22 @@ header{
 .logo{
     /* margin: 0; */
     position: relative;
-    text-align: center;       
+    text-align: center; 
+        
 }
 
 #pic{
     width: 50px;
-    height: 50px;
+    height: 50px;  
     margin-top: 10px;
     padding: 10px;
+    background-color:rgb(248, 227, 123);
 
     position: relative;
     right: 25%;
     transition: .5s linear;
-    border: 2px solid rgb(173, 218, 173);
-    border-radius: 50%;
+    border: 5px solid rgb(1, 54, 1);
+    border-radius: 30%;
 }
 
 /* Die Div #pic dreht sich, das Bild .logo würde kreisen */
