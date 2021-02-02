@@ -137,7 +137,8 @@ header{
     color: rgb(1, 54, 1);
     font-weight: bold;
     font-size: 2.1rem;
-    border: 3px solid rgb(1, 54, 1);
+    border: 3px solid rgb(1, 32, 1);
+    box-shadow: 5px 5px 5px 5px rgb(1, 32, 1);
     border-radius: 35%;
     background-color: rgb(240, 240, 178);  
 }
