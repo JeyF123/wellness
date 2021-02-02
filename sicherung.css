@@ -418,6 +418,13 @@ margin: 0;}
             height: 12rem;
         margin: 0;}
 
+
+        #sauna{
+            width: 400px;
+                height: 12rem;
+            margin: 0;}
+
+
 #div-schief-links1{
     width: 400px;
     height: auto;
@@ -474,7 +481,8 @@ margin: 0;}
     top: 4rem;
     left: 35rem;
     background-color: rgb(1, 54, 1);
-    border-bottom: 10px groove rgb(240, 240, 178);
+    /* border-bottom: 10px groove rgb(240, 240, 178); */
+    box-shadow: 5px 5px 5px 5px  rgb(1, 32, 1);
 }
 
 .freies-div1 > h1{
@@ -495,10 +503,55 @@ margin: 0;}
     top: 12rem;
     left: 35rem;
     background-color: rgb(1, 54, 1);
-    border-bottom: 10px groove rgb(240, 240, 178);
+    /* border-bottom: 10px groove rgb(240, 240, 178); */
+    box-shadow: 5px 5px 5px 5px  rgb(1, 32, 1);
 }
 
 .freies-div2 > h1{
+    font-family:handwritten;
+    color:rgb(248, 227, 123);
+    font-size: 2.25rem;
+    text-align: center;
+    position: relative;
+    top: 1rem;  
+}
+
+#div-schief-links3{
+    width: 400px;
+    height: auto;
+    position: relative;
+    margin: 0;
+    top: 25rem;
+    left: 19rem;
+    border-bottom: 10px groove rgb(240, 240, 178);
+    
+}
+#div-schief-rechts3{
+    width: 420px;
+    height: 200px;
+    margin: 0;
+    position: relative;
+    padding: 1rem;
+    text-align: center;
+    top: 25rem;
+    left: 24rem;
+    border-bottom: 10px groove rgb(240, 240, 178);
+    background-color: rgb(248, 227, 123);
+    color:  rgb(1, 54, 1);
+}
+
+.freies-div3{
+    width: 25rem;
+    height: 5rem;
+    position: relative;
+    top: 20rem;
+    left: 35rem;
+    background-color: rgb(1, 54, 1);
+    /* border-bottom: 10px groove rgb(240, 240, 178); */
+    box-shadow: 5px 5px 5px 5px  rgb(1, 32, 1);
+}
+
+.freies-div3 > h1{
     font-family:handwritten;
     color:rgb(248, 227, 123);
     font-size: 2.25rem;

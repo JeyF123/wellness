@@ -134,14 +134,14 @@ header{
     display: inline-block;
 }
 #main-headline:hover{
-    color: rgb(32, 39, 32);
+    color: rgb(1, 54, 1);
     font-weight: bold;
     font-size: 2.1rem;
-    border: 3px solid red;
+    border: 3px solid rgb(1, 54, 1);
     border-radius: 35%;
-    background-color: lightblue;
-    
+    background-color: rgb(240, 240, 178);  
 }
+
 ul{
     margin: 0;
     padding: 0;
@@ -481,7 +481,8 @@ margin: 0;}
     top: 4rem;
     left: 35rem;
     background-color: rgb(1, 54, 1);
-    border-bottom: 10px groove rgb(240, 240, 178);
+    /* border-bottom: 10px groove rgb(240, 240, 178); */
+    box-shadow: 5px 5px 5px 5px  rgb(1, 32, 1);
 }
 
 .freies-div1 > h1{
@@ -502,7 +503,8 @@ margin: 0;}
     top: 12rem;
     left: 35rem;
     background-color: rgb(1, 54, 1);
-    border-bottom: 10px groove rgb(240, 240, 178);
+    /* border-bottom: 10px groove rgb(240, 240, 178); */
+    box-shadow: 5px 5px 5px 5px  rgb(1, 32, 1);
 }
 
 .freies-div2 > h1{
@@ -545,9 +547,9 @@ margin: 0;}
     top: 20rem;
     left: 35rem;
     background-color: rgb(1, 54, 1);
-    border-bottom: 10px groove rgb(240, 240, 178);
+    /* border-bottom: 10px groove rgb(240, 240, 178); */
+    box-shadow: 5px 5px 5px 5px  rgb(1, 32, 1);
 }
-
 
 .freies-div3 > h1{
     font-family:handwritten;
