@@ -418,6 +418,16 @@ footer a{
     transition-delay: .1s;
     transition-duration: .25s;
 }
+#div-schief-rechts2:hover{
+    transform: scale(1.25);
+    transition-delay: .1s;
+    transition-duration: .25s;
+}
+#div-schief-rechts3:hover{
+    transform: scale(1.25);
+    transition-delay: .1s;
+    transition-duration: .25s;
+}
 
 #kitchen{
 width: 400px;
@@ -575,5 +585,59 @@ margin: 0;}
 
 
 
+/* Preise */
 
+caption {
+    color: red;
+}
+table th{
+    width: 200px;
+    color:rgb(1, 54, 1);
+    text-align:left;
+    font-size: 2rem;
+    background-color: rgb(240, 240, 178);
+}
+tbody  td{
+    width: 210px;
+    font-size: 1.5rem;
+    color: rgb(240, 240, 178);
+    background-color: rgb(1, 54, 1);   
+}
 
+table *{
+border: 2px solid black;
+}
+
+table{
+    border-collapse: collapse;
+    position: relative;
+    margin: 0 auto;   
+}
+
+tr{
+    height: 50px;
+    width: auto;
+    
+}
+.preise{
+    border: 2px solid rgb(1, 54, 1);
+    color: rgb(15, 15, 70);
+    background-color: rgb(248, 227, 123);
+}
+#preis-hintergrundbild{
+    position: absolute;
+    width:1000px;
+    height: 600px;
+    opacity: .25;
+    left: 300px; 
+}
+
+/* Datenschutz */
+
+#datenschutz-gesamt{
+    width: 500px;
+    height: auto;
+    color:rgb(1, 54, 1);
+    position: relative;
+    left: 5rem;
+}
